@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, Consolas, "Courier New";
 }
 
 :root {
@@ -14,8 +15,7 @@
 
 body {
     background: var(--background-color);
-    margin: 0 5%;
-    font-family: Roboto, Consolas, "Courier New";
+    margin: 0 15%;
 }
 
 section {
@@ -30,11 +30,17 @@ section {
     margin-right: 10%;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 10px;
     text-transform: uppercase;
+    padding-top: 50px;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 img {
@@ -49,4 +55,28 @@ figcaption {
     font-size: 12px;
     text-align: right;
     padding-right: 25px;
+}
+
+ul, ol {
+    margin-left: 35px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+li {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+p {
+    padding: 25px 15px;
+}
+
+footer {
+    text-align: center; 
+    font-size: 12px;
+}
+
+span {
+    text-transform: uppercase;
 }
